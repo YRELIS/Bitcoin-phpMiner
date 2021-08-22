@@ -15,7 +15,7 @@ set_time_limit(0);
 // Example
 $host = 'eu.stratum.slushpool.com';
 $port = 3333;
-$user = 'amby666.testuser1'
+$user = 'amby666.testuser1';
 $pass = 'anything123';
 
 $miner = new Miner($host, $port, $user, $pass);
