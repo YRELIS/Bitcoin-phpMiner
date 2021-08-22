@@ -13,10 +13,10 @@ require_once(dirname(__file__) . '/miner.php');
 set_time_limit(0);
 
 // Example
-$host = 'pit.deepbit.net';
-$port = 8332;
-$user = 'username';
-$pass = 'password';
+$host = 'eu.stratum.slushpool.com';
+$port = 3333;
+$user = 'amby666,testuser1';
+$pass = 'anything123';
 
 $miner = new Miner($host, $port, $user, $pass);
 
@@ -37,6 +37,6 @@ $miner->run();
 If you want to mine on bitp.it
 */
 # Parameters: ClientID and Domain
-$miner = new BitpitMiner(4384, 'zencodez.net');
-$miner->run();
+#$miner = new BitpitMiner(4384, 'zencodez.net');
+#$miner->run();
 ?>
